@@ -2,4 +2,6 @@
 <h1><%= @snacks.each do |snack| %>
   <%= snack.name %>
   <% snack.price %>
+
   <% end %>
+  <%= Snack.average_price %>

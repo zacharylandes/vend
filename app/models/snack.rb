@@ -3,7 +3,7 @@ class Snack < ApplicationRecord
   has_many :machines, through: :snackmachines
 
 
-  def self.average
+  def self.average_price
     average(:price)
   end
 end
